@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>index</title>
+  <link rel="stylesheet" href="sylesheets/stylesheets.css" type="text/css" media="all" charset="utf-8" />
+  <link rel="stylesheet" href="javascripts/jquery-ui-1.8.7.custom/css/custom-theme/jquery-ui-1.8.7.custom.css" type="text/css" media="all" charset="utf-8" />
+
+</head>
+
+<body>
+
+  <div id="base-wrapper">
+    
+    <div class="box box_left">
+      <div class="box_heading">
+        <h2>Image <span>drop your image here</span></h2>
+      </div>
+      <div class="box_inner">
+        <img id="image_clone" src="gardient_linear_red.png" />
+        <textarea id="droparea"></textarea>
+      </div>
+    </div>
+
+    <div class="box box_right">
+      <div class="box_heading">
+        <h2><a class="button" id="export">Export</a> CSS</h2>
+        <div class="form-item">
+          <label>Simplify</label>
+          <div id="slider"></div>
+          <span id="count"></span>
+        </div>
+      </div>
+      <div class="box_inner" id="target"></div>
+    </div>
+  </div>
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <img id="image" src="gardient_linear_left.png" style="display:none;" />
+  <div id="export_dialog" title="Export" style="display:none;">
+    <textarea rows="8" cols="40">ksfhaksdjfhskjfhskdjfhsdkfj</textarea>
+  </div>
+  <script src="javascripts/jquery-1.4.4.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/jquery-ui-1.8.7.custom/js/jquery-ui-1.8.7.custom.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/generate.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/analysis.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    if (window.location.protocol != "file:") {
+      alert('Please download the project at github and open the index.html localy.');
+    };
+    if (!jQuery.browser.safari) {
+      alert('Sorry only at the moment only safari supported.');
+    };
+    
+  </script>
+</body>
+</html>

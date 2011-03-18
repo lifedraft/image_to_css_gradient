@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+    
+  font: 18px/1em bold Helvetica, Arial, sans-serif;
+  color: #fff;
+
+}
+
+#base-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  
+  background: #383838;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #1a1a1a), color-stop(100%, #383838)) repeat-x;
+  background: -moz-linear-gradient(top, #1a1a1a, #383838);
+  
+}
+
+#export_dialog textarea {
+  width: 100%;
+  height: 338px;
+  color: #fff;
+  padding: 0;
+  position: relative;
+  opacity: 1;
+  background: none;
+  font-size: 11px;
+  font-family: Consolas;
+  cursor: text;
+}

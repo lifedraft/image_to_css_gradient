@@ -1,0 +1,44 @@
+.form-item {
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 6px;
+  margin-top: -12px;
+  width: 100%;
+  color: #000;
+  font-size: 80%;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  position: absolute;
+  left: -54%;
+}
+
+.form-item label {
+  width: 20%;
+  text-indent: 10px;
+}
+
+.form-item input {
+  width: 60%;
+  margin-top: 2px;
+}
+
+.form-item span {
+  text-align: center;
+  display: block;
+  width: 15%;
+}
+
+.box_heading .form-item * {
+  float: left;
+}
+
+textarea {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: default;
+}
